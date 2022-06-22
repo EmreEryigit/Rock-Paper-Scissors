@@ -6,6 +6,33 @@
   height: 40vmin;
   pointer-events: none;
 }
+img {
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+}
+button {
+  margin: 15px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 10px solid purple;
+
+}
+.gameOver {
+  border: none;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  display: block;
+  margin: 5px auto ;
+}
+button:hover{
+  border: 10px solid darkblue;
+  -webkit-box-shadow: -7px 6px 5px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 6px 5px -3px rgba(0,0,0,0.75);
+box-shadow: -7px 6px 5px -3px rgba(0,0,0,0.75);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
